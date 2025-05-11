@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-public class SqrtTest {
+public class AppTest {
 
     @Test
     public void testSquareRootOf4() {
