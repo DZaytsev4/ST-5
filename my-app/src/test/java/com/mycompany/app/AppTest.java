@@ -28,10 +28,10 @@ public class AppTest {
     }
 
     @Test
-    public void testSquareRootOf0() {
-        Sqrt sqrt = new Sqrt(0);
-        double result = sqrt.calc();
-        assertEquals(0.0, result, 1e-7);
+    public void testIter_Simple() {
+        Sqrt s = new Sqrt(4.0);
+        double result = s.iter(1.0, 4.0);
+        assertEquals(2.0, result, DELTA);
     }
 
     @Test
