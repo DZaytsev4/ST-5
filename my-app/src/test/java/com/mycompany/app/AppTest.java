@@ -28,10 +28,9 @@ public class AppTest {
     }
 
     @Test
-    public void testIter_Simple() {
-        Sqrt s = new Sqrt(4.0);
-        double result = s.iter(1.0, 4.0);
-        assertEquals(2.0, result, DELTA);
+    public void testFalse() {
+        Sqrt sqrt = new Sqrt(1);
+        assertFalse(sqrt.good(1.0, 7.0));
     }
 
     @Test
